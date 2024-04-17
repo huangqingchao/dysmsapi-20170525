@@ -4,7 +4,7 @@ Pod::Spec.new do |spec|
   spec.version      = "1.0.2"
   spec.license      = "Apache 2.0"
   spec.summary      = "Alibaba Cloud Dysmsapi (20170525) SDK Library for Swift"
-  spec.homepage     = "https://github.com/alibabacloud-sdk-swift/dysmsapi-20170525" 
+  spec.homepage     = "https://github.com/huangqingchao/dysmsapi-20170525" 
   spec.author       = { "Alibaba Cloud SDK" => "sdk-team@alibabacloud.com" }
 
   spec.source       = { :git => spec.homepage + '.git', :tag => spec.version }
@@ -20,7 +20,7 @@ Pod::Spec.new do |spec|
   spec.dependency 'Tea',  '~> 1.0.0'
   spec.dependency 'TeaUtils',  '~> 1.0.3'
   spec.dependency 'AlibabacloudOpenApi',  '~> 1.0.1'
-  spec.dependency 'AlibabaCloudOpenApiUtil',  '~> 1.0.1'
+  # spec.dependency 'AlibabaCloudOpenApiUtil',  '~> 1.0.2'
   spec.dependency 'AlibabacloudEndpointUtil',  '~> 1.0.0'
 
   spec.swift_version='5.6'
